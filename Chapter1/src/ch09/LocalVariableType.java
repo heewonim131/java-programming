@@ -4,9 +4,11 @@ public class LocalVariableType {
 
 	public static void main(String[] args) {
 
-		int i = 10;
-		double j = 10.0;
-		String str = "hello";
+		// java 14에서 작동하는 코드
+		/*
+		var i = 10;
+		var j = 10.0;
+		var str = "hello";
 		
 		System.out.println(i);
 		System.out.println(j);
@@ -14,5 +16,6 @@ public class LocalVariableType {
 		
 		str = "test";
 		//str = 3; 
+		 */
 	}
 }
