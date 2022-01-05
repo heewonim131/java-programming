@@ -4,7 +4,6 @@ public class Test {
 
 	public static void main(String[] args) {
 
-		
 		String pass = new String("abc");
 		System.out.println(pass.matches("[a-zA-Z]+")); //true
 		
