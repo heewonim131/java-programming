@@ -8,3 +8,13 @@ INFO: test
 WARNING: test
 1월 05, 2022 3:27:18 오후 ch11.MyLogger log
 SEVERE: test
+1월 05, 2022 3:32:02 오후 ch11.MyLogger warning
+WARNING: name must not be null
+1월 05, 2022 3:32:02 오후 ch11.MyLogger warning
+WARNING: 이름이 너무 길어요
+1월 05, 2022 3:33:34 오후 ch11.MyLogger warning
+WARNING: name must not be null
+1월 05, 2022 3:33:34 오후 ch11.MyLogger warning
+WARNING: 이름이 너무 길어요
+1월 05, 2022 3:33:34 오후 ch11.MyLogger fine
+FINE: begin getStudentName()
