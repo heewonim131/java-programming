@@ -7,7 +7,7 @@ public class FileTest {
 
 	public static void main(String[] args) throws IOException {
 
-		File file = new File("D:\\JAVA_LAB\\Chapter6\\newFile.txt");
+		File file = new File("C:\\Pro\\JavaPro\\Chapter6\\newFile.txt");
 		file.createNewFile();
 		
 		System.out.println(file.isFile());
