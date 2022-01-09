@@ -96,16 +96,17 @@ public class Robot {
 		for (int i = 0; i < HEIGHT; i++) {
 			for (int j = 0; j < WIDTH; j++) {
 				if (maze.myMaze[i][j] == WALL) {
-					System.out.println("■");
+					System.out.print("■　");
 				} else if (markArray[i][j] == VISIT) {
-					System.out.println("□");
+					System.out.print("□　");
 				} else {
-					System.out.println(" ");
+					System.out.print("Ｘ　");
 				}
 			}
 			System.out.println();
 		}//for
 		
+		// 스택에 저장한 위치 출력 (이동 경로)
 		int i = 0;
 		while (!isEmpty) {
 			Move move = stack.pop();
@@ -114,9 +115,9 @@ public class Robot {
 			resultArray[y][x] = VISIT;
 			
 			if (i > 0) {
-				System.out.println("<-");
+				System.out.print("<-");
 			}
-			System.out.println("(" + x + "," + y + ")");
+			System.out.print("(" + x + "," + y + ")");
 			i++;
 			isEmpty = stack.isEmpty();
 		}//while
